@@ -43,17 +43,17 @@
        &kp TAB      &kp Q         &kp W     &kp L      &kp K      &kp J                   &none      &none      &kp B         &kp F           &kp U      &kp Y  &kp BACKSPACE   &kp BSLH
  &kp SEMICOLON      &kp A         &kp R     &kp S      &kp T      &kp G                   &none  &kp SPACE    &kp DEL                                &kp SPACE     &kp KP_NUM      &none     &kp P   &kp N      &kp E    &kp I      &kp O    &kp SQT
      &kp LSHFT      &kp Z         &kp X     &kp C      &kp D      &kp V                   &none      &none   &kp HOME         &none           &none  &kp PG_UP          &none      &none     &kp M   &kp H  &kp COMMA  &kp DOT  &kp ENTER  &kp SLASH
-         &mo 2  &kp GRAVE  &kp LEFT_WIN  &kp LEFT  &kp RIGHT  &kp LCTRL            &kp LEFT_ALT    &kp END  &kp PG_DN  &kp LEFT_WIN  &kp LEFT_SHIFT     &kp UP       &kp DOWN   &kp LBKT  &kp RBKT   &mo 2
+       &kp ESC  &kp GRAVE  &kp LEFT_WIN  &kp LEFT  &kp RIGHT  &kp LCTRL            &kp LEFT_ALT    &kp END  &kp PG_DN  &kp LEFT_WIN  &kp LEFT_SHIFT     &kp UP       &kp DOWN   &kp LBKT  &kp RBKT   &mo 2
             >;
         };
 
         layer_keypad {
             bindings = <
-   &kp ESC     &kp N1    &kp N2    &kp N3                &kp N4                 &kp N5                   &trans      &mo 3     &kp N6     &kp KP_NUM     &kp KP_EQUAL    &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp KP_MINUS
-   &kp TAB      &kp Q     &kp W     &kp L        &kp LEFT_BRACE        &kp RIGHT_BRACE                    &none      &none      &kp Y      &kp KP_N7        &kp KP_N8        &kp KP_N9     &kp KP_MINUS      &kp BSLH
-   &kp ESC      &kp A     &kp R     &kp S  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &none  &kp SPACE   &kp LALT                                        &kp SPACE        &kp RCTRL         &none    &kp KP_MINUS  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                    &none      &none   &kp HOME          &none            &none        &kp PG_UP            &none         &none  &kp UNDERSCORE  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT             &kp RIGHT      &kp RIGHT_CONTROL            &kp RIGHT_ALT    &kp END  &kp PG_DN  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &kp KP_NUMBER_0     &kp KP_COMMA    &kp KP_DOT       &kp ENTER      &mo 2
+ &kp ESC     &kp N1    &kp N2    &kp N3                &kp N4                 &kp N5                   &trans   &mo 3       &kp N6     &kp KP_NUM     &kp KP_EQUAL    &kp KP_DIVIDE  &kp KP_MULTIPLY      &trans
+  &trans     &trans    &trans    &trans        &kp LEFT_BRACE        &kp RIGHT_BRACE                    &none   &none  &kp KP_PLUS      &kp KP_N7        &kp KP_N8        &kp KP_N9     &kp KP_MINUS      &trans
+  &trans     &trans    &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &none  &trans       &trans                                           &trans           &trans       &none    &kp KP_MINUS  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS  &trans
+  &trans     &trans    &trans    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET                    &none   &none       &trans          &none            &none           &trans            &none       &none  &kp UNDERSCORE  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &trans
+ &kp ESC  &kp GRAVE  &kp CAPS  &kp LEFT             &kp RIGHT      &kp RIGHT_CONTROL            &kp RIGHT_ALT  &trans       &trans  &kp RIGHT_WIN  &kp RIGHT_SHIFT  &kp KP_NUMBER_0     &kp KP_COMMA  &kp KP_DOT    &kp KP_ENTER      &mo 2
             >;
         };
 
